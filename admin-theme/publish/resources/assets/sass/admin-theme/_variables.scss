@@ -1,0 +1,149 @@
+//AdminLTE 2 Variables.less
+//=========================
+
+//PATHS
+//--------------------------------------------------------
+
+$boxed-layout-bg-image-path: "/images/boxed-bg.jpg" !default;
+
+//COLORS
+//--------------------------------------------------------
+
+$light-blue: #3c8dbc;  //Primary
+$red:        #dd4b39;  //Danger
+$green:      #00a65a;  //Success
+$aqua:       #00c0ef;  //Info
+$yellow:     #f39c12;  //Warning
+$blue:       #0073b7;
+$navy:       #001F3F;
+$teal:       #39CCCC;
+$olive:      #3D9970;
+$lime:       #01FF70;
+$orange:     #FF851B;
+$fuchsia:    #F012BE;
+$purple:     #605ca8;
+$maroon:     #D81B60;
+$black:      #111;
+$gray:       #d2d6de;
+
+$topicmine-link-color:            #21759b !default;
+$topicmine-orange: #d54e21;
+$topicmine-light-grey: #f4f4f4;
+$topicmine-red: #935347;
+$topicmine-white: #eee;
+$topicmine-brand-primary: #45bbe6 !default;
+$topicmine-dark-gray: #23282d;
+//$topicmine-yellow: #23282d;
+
+// OLD SETTINGS FOR REFERENCE
+//$eb-color1: #ede9ce;
+//$eb-yellow: #23282d; // wp header
+//$eb-yellow-lighter: #f5f5f5; // actually light grey
+//$eb-color2: #c7ad88;
+//$eb-orange: #d54e21;
+//$eb-orange-lighter: #ede4d8;
+//$eb-color3: #64706c;
+//$eb-green: #23282d;
+//$eb-green-lighter: #dee1e0;
+//$eb-color4: #935347;
+//$eb-red: #935347;
+//$eb-red-lighter: #e0c4be;
+//$eb-white: #eee;
+//$eb-brand-primary:         #45bbe6 !default;
+//$eb-link-color:            #21759b !default;
+
+//LAYOUT
+//--------------------------------------------------------
+
+$sidebar-width: 200px;
+//Boxed layout maximum width
+$boxed-layout-max-width: 1024px;
+//When the logo should go to the top of the screen
+$screen-header-collapse: $screen-xs-max;
+
+//Link colors (Aka: <a> tags)
+$link-color:       $topicmine-link-color;
+$link-hover-color: $topicmine-orange;
+
+//Body background (Affects main content background only)
+$body-bg: $topicmine-light-grey;
+$sidebar-bg: $topicmine-light-grey;
+$sidebar-submenu-bg: lighten($sidebar-bg, 5%);
+$footer-bg:  $topicmine-light-grey;
+$control-bg:  #444;
+
+//SIDEBAR SKINS
+//--------------------------------------------------------
+
+//Dark sidebar
+$sidebar-dark-bg:                  $control-bg;
+$sidebar-dark-hover-bg:            darken($sidebar-dark-bg, 2%);
+$sidebar-dark-color:               lighten($sidebar-dark-bg, 60%);
+$sidebar-dark-hover-color:         #fff;
+$sidebar-dark-submenu-bg:          lighten($sidebar-dark-bg, 5%);
+$sidebar-dark-submenu-color:       lighten($sidebar-dark-submenu-bg, 40%);
+$sidebar-dark-submenu-hover-color: #fff;
+
+
+//Light sidebar
+$sidebar-light-bg:                  $sidebar-bg;
+$sidebar-light-hover-bg:            transparent;
+$sidebar-light-color:               $topicmine-link-color;
+$sidebar-light-hover-color:         $topicmine-orange;
+$sidebar-light-submenu-bg:          $sidebar-submenu-bg;
+$sidebar-light-submenu-color:       $topicmine-link-color;
+$sidebar-light-submenu-hover-color: $topicmine-orange;
+
+//CONTROL SIDEBAR
+//--------------------------------------------------------
+$control-sidebar-width: $sidebar-width + 150;
+
+//BOXES
+//--------------------------------------------------------
+$box-border-color:  #f4f4f4;
+$box-border-radius: 3px;
+$box-footer-bg:     #fff;
+$box-boxshadow:     0 1px 1px rgba(0, 0, 0, .1);
+$box-padding:       10px;
+
+//Box variants
+$box-default-border-top-color: $gray;
+
+//BUTTONS
+//--------------------------------------------------------
+$btn-boxshadow: none;
+
+//PROGRESS BARS
+//--------------------------------------------------------
+$progress-bar-border-radius:    1px;
+$progress-bar-sm-border-radius: 1px;
+$progress-bar-xs-border-radius: 1px;
+
+//FORMS
+//--------------------------------------------------------
+$input-radius: 0px;
+
+//BUTTONS
+//--------------------------------------------------------
+
+//Border radius for non flat buttons
+$btn-border-radius: 3px;
+
+//DIRECT CHAT
+//--------------------------------------------------------
+$direct-chat-height:                   250px;
+$direct-chat-default-msg-bg:           $gray;
+$direct-chat-default-font-color:       #444;
+$direct-chat-default-msg-border-color: $gray;
+
+//CHAT WIDGET
+//--------------------------------------------------------
+$attachment-border-radius: 3px;
+
+//TRANSITIONS SETTINGS
+//--------------------------------------------------------
+
+//Transition global options
+$transition-speed: .3s;
+$transition-fn:    ease-in-out;//cubic-bezier(0.32,1.25,0.375,1.15);
+

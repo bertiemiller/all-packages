@@ -1,0 +1,35 @@
+{
+    "name": "topicmine/core",
+    "description": "Core components for Topic Mine",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bertie Miller",
+            "email": "berts8888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "prettus/l5-repository": "^2.6",
+        "league/fractal": "^0.13.0",
+        "robclancy/presenter": "1.3.*",
+        "laracasts/utilities": "~2.0",
+        "laravelcollective/html": "5.3.*",
+        "doctrine/dbal": "^2.5",
+        "hieu-le/active": "~2.0",
+        "laracasts/flash": "^2.0",
+
+        "tymon/jwt-auth": "0.5.*",
+        "barryvdh/laravel-cors": "^0.8",
+        "dingo/api": "1.0.*@dev",
+        "dingo/blueprint": "0.1.*"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Topicmine\\Core\\": "src/"
+        }
+    }
+}

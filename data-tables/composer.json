@@ -1,0 +1,17 @@
+{
+    "name": "topicmine/data-tables",
+    "description": "Data table components for Topic Mine",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bertie Miller",
+            "email": "berts8888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Topicmine\\DataTables\\": "src/"
+        }
+    }
+}

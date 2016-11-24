@@ -1,0 +1,10 @@
+<?php
+$middlewareGroups = [
+        'admin' => [
+            'web',
+            'auth',
+            'users.routeNeedsPermission:view-admin',
+            'users.subscriptionSetup',
+        ],
+
+];

@@ -1,0 +1,21 @@
+{
+    "name": "topicmine/user-access",
+    "type": "library",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Bertie Miller",
+            "email": "berts8888@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Topicmine\\UserAccess\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

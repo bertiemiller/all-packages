@@ -1,0 +1,13 @@
+<?php
+$routeMiddleware = [
+        'users.routeNeedsRole' => \Topicmine\Core\Middleware\RouteNeedsRole::class,
+        'users.routeNeedsPermission' => \Topicmine\Core\Middleware\RouteNeedsPermission::class,
+
+        /*
+         * Third Party
+         */
+        'jwt.auth' => \Tymon\JWTAuth\Middleware\GetUserFromToken::class,
+        'jwt.refresh' => \Tymon\JWTAuth\Middleware\RefreshToken::class,
+        'cors' => \Barryvdh\Cors\HandleCors::class,
+
+];

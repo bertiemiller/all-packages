@@ -1,0 +1,8 @@
+<?php
+$middleware = [
+        /*
+        * Third party
+        */
+        \Barryvdh\Cors\HandleCors::class,
+        \Barryvdh\Cors\HandlePreflight::class,
+];

@@ -1,0 +1,18 @@
+<?php
+
+return [
+        'wordpress_database' => [ // this is your Corcel database connection, where WordPress tables are
+            'driver'    => 'mysql',
+            'host'      => env('DB_HOST_WP', '192.168.56.1'),
+            'port'      => env('DB_PORT_WP', '3306'),
+            'database'  => env('DB_DATABASE_WP', 'forge'),
+            'username'  => env('DB_USERNAME_WP', 'forge'),
+            'password'  => env('DB_PASSWORD_WP', ''),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => 'wp_',
+            'strict'    => false,
+            'engine'    => null,
+        ],
+
+];

@@ -1,0 +1,18 @@
+<?php
+
+return [
+        'account_database' => [
+            'driver' => 'mysql',
+            'host' => env('DB_HOST_ACCOUNT_DATABASE', 'localhost'),
+            'port' => env('DB_PORT_ACCOUNT_DATABASE', '3306'),
+            'database' => env('DB_DATABASE_ACCOUNT_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME_ACCOUNT_DATABASE', 'forge'),
+            'password' => env('DB_PASSWORD_ACCOUNT_DATABASE', ''),
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => 'tm_',
+            'strict' => true,
+            'engine' => null,
+        ],
+
+];
